@@ -28,11 +28,11 @@
 效果演示：
 		- 可左右滑动的segment
 
-		![B32D24CC-AF4A-4148-873C-8068129591A9.png](/Users/yanhong/Desktop/B32D24CC-AF4A-4148-873C-8068129591A9.png)
+		![B32D24CC-AF4A-4148-873C-8068129591A9.png](http://upload-images.jianshu.io/upload_images/1767523-b7f39e5e3eb96778.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 		- 不可左右滑动的segment
 
-		![AAF4DEC3-D046-4C71-A5FB-6C582242BA5C.png](/Users/yanhong/Desktop/AAF4DEC3-D046-4C71-A5FB-6C582242BA5C.png)
+		![AAF4DEC3-D046-4C71-A5FB-6C582242BA5C.png](http://upload-images.jianshu.io/upload_images/1767523-0dbb80e7e631e961.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
