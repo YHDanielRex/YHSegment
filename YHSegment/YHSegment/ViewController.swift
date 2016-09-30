@@ -28,11 +28,12 @@ class ViewController: UIViewController {
     func createSegment() {
         
         // 通过items创建视图选择器
-        let segment: YHSegmented = YHSegmented(items: ["标题1", "标题2", "标题3", "标题4", "标题5", "标题6", "标题7", "标题8", "标题9"])
+        let segment: YHSegmented = YHSegmented(items: ["标题1", "标题2", "标题3"])
+//        , "标题4", "标题5", "标题6", "标题7", "标题8", "标题9"])
         // 设置segment的frame
         segment.frame = CGRect(x: 0, y: 320, width: self.view.frame.size.width, height: 44)
         // 设置内容视图的大小, 超出frame可左右滑动
-        segment.contentSize = CGSize(width: 2 * self.view.frame.size.width, height: 44)
+//        segment.contentSize = CGSize(width: 2 * self.view.frame.size.width, height: 44)
         self.view.addSubview(segment)
         // 添加点击事件
         segment.add(target: self, action: #selector(clickSegment(sender:)))

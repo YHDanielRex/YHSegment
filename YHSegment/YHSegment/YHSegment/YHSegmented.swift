@@ -96,7 +96,6 @@ class YHSegmented: UIScrollView {
             button.setTitle(title, for: UIControlState.normal)
             self.addSubview(button)
             button.setTitleColor(self.normalSegmentColor, for: UIControlState.normal)
-            button.setTitleColor(self.selectedSegmentColor, for: UIControlState.selected)
             
             button.tag = BUTTON_TAG + i
             // 添加事件
@@ -127,9 +126,11 @@ class YHSegmented: UIScrollView {
         let selectedButton: UIButton = self.viewWithTag(self.selectedSegmentIndex + BUTTON_TAG) as! UIButton
         selectedButton.isSelected = false
         selectedButton.isUserInteractionEnabled = true
+        selectedButton.setTitleColor(self.normalSegmentColor, for: UIControlState.normal)
         
         // 设置点击按钮为选中状态
         self.selectedSegmentIndex = sender.tag - BUTTON_TAG
+        sender.setTitleColor(self.selectedSegmentColor, for: UIControlState.normal)
         
         // 选中下标的值发生改变, 让响应的对象去响应消息
         if let tar = self.target {
